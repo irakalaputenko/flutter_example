@@ -1,0 +1,127 @@
+name: vandal
+description: Vandal vape shop
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+  # Navigation
+  go_router: 12.0.0
+
+  # State management
+  flutter_bloc: 8.1.1
+
+  # Dependency injection
+  get_it: 7.2.0
+  injectable: 2.1.0
+
+  # Data
+  decimal: 2.3.2
+  freezed: 2.2.0
+  json_annotation: 4.7.0
+  equatable: 2.0.5
+  permission_handler: 10.2.0
+
+  # Network
+  dio: 4.0.6
+  retrofit: 3.3.1
+  pretty_dio_logger: 1.2.0-beta-1
+  connectivity_plus: 3.0.2
+  url_launcher: 6.1.6
+  uni_links: 0.5.1
+  external_app_launcher: 3.1.0
+  shimmer: 3.0.0
+  device_info_plus: 9.0.0
+  android_id: 0.3.0
+  uuid: 4.1.0
+  internet_connection_checker: 1.0.0+1
+  rxdart: 0.27.7
+
+  #View
+  flutter_svg: 1.1.6
+  mask_text_input_formatter: 2.4.0
+  google_fonts: 4.0.0
+  intl_phone_field: 3.1.0
+  pinput: 4.0.0
+  easy_localization: 3.0.1
+
+  # storage
+  hive: 2.2.3
+  hive_flutter: 1.1.0
+  local_auth: 2.1.6
+  screenshot: 1.3.0
+  path_provider: 2.1.0
+
+  # Error handling
+  dartz: 0.10.1
+  logging: 1.1.0
+  logger: 2.0.0
+
+  dart_style: 2.2.4
+  collection: 1.17.0
+  freezed_annotation: 2.4.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: 2.0.1
+  go_router_builder: 2.3.4
+  build_runner: 2.3.3
+  json_serializable: 6.5.0
+  injectable_generator: 2.1.3
+  retrofit_generator: 4.2.0
+  flutter_gen_runner: 5.1.0
+  hive_generator: 1.1.3
+  flutter_launcher_icons: 0.11.0
+  _fe_analyzer_shared: 47.0.0
+  
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  generate: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/translations/
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
